@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porongos AI Labs</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #16a085;
+            --bg: #f4f6f7;
+            --card: #ffffff;
+            --text: #333333;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        body { background-color: var(--bg); color: var(--text); padding: 16px; max-width: 500px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 20px; padding: 16px; background: var(--primary); color: white; border-radius: 12px; }
+        header h1 { font-size: 1.4rem; }
+        header p { font-size: 0.85rem; opacity: 0.9; }
+        .card { background: var(--card); border-radius: 12px; padding: 16px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+        .card h2 { font-size: 1.1rem; margin-bottom: 12px; color: var(--primary); }
+        label { display: block; font-size: 0.85rem; font-weight: bold; margin-bottom: 6px; }
+        input, textarea { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem; margin-bottom: 12px; }
+        button { background-color: var(--accent); color: white; border: none; border-radius: 8px; padding: 12px; font-size: 1rem; font-weight: bold; width: 100%; cursor: pointer; }
+        .result { margin-top: 12px; padding: 12px; background: #e8f8f5; border-radius: 8px; text-align: center; font-weight: bold; color: var(--accent); }
+        .item { padding: 10px; border-bottom: 1px solid #eee; font-size: 0.9rem; }
+        .item small { display: block; color: #777; font-size: 0.75rem; margin-top: 4px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Porongos AI Labs</h1>
+        <p>Ecossistema Comunitário & Ferramentas</p>
+    </header>
+
+    <!-- Simulador de Taxas -->
+    <div class="card">
+        <h2>
